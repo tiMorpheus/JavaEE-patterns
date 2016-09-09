@@ -3,10 +3,12 @@ package com.tiMorpheus.Singleton;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
+import javax.ejb.Startup;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
 
+@Startup
 @Singleton
 public class CacheSingletonBean {
 
